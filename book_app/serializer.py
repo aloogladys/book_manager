@@ -12,3 +12,7 @@ class BookSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("Publication date cannot be in the future ")
         return value
     
+    def validate_isbn_length(value):
+        if  len(value)<10 or len(value) >13:
+            raise serializers.ValidationError("ISBN must be 10 or 13 digits.")
+        return value
