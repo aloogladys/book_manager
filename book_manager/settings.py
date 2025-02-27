@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'book_app',
-    'rest_framework'
-]
+    'rest_framework',
+    'drf_yasg',]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
