@@ -10,7 +10,7 @@ Features
   - `POST /books/`: Create a new book.
   - `GET /books/{id}/`: Retrieve a specific book.
   - `PUT /books/{id}/`: Update a specific book.
-  -`PATCH /books/{id}/`: Update a specific book.
+  -`PATCH /books/{id}/`: Update a specific field of a book.
   - `DELETE /books/{id}/`: Delete a specific book.
 
 3. Validation 
